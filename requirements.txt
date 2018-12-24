@@ -1,0 +1,5 @@
+npm install simple-youtube-api
+ytdl-core
+discord.js-commando
+Youtube API
+Discord Bot API
