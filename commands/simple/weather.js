@@ -37,6 +37,7 @@ class WeatherCommand extends commando.Command
           .addField('Feels Like', `${current.feelslike} Degrees`, true)
           .addField('Winds',current.winddisplay, true)
           .addField('Humidity', `${current.humidity}%`, true)
+          .addField('Day', `${current.day}`,true)
           message.channel.send({embed});
           });
 
