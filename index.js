@@ -9,7 +9,7 @@ const TOKEN = 'NTI0NzYwMDk4MjgzOTc4NzY1.Dv9P0Q.judKBeO1PbFjoDOOAwg6BoA0pY8'
 
 
 var servers = {};
-var prefix = '!';
+var prefix = '-';
 client.on("message", async message => {
     var args = message.content.substring(prefix.length).split(" ");
     if (!message.content.startsWith(prefix)) return;
